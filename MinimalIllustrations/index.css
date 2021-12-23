@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Dosis:wght@200&family=Josefin+Sans:ital,wght@0,100;0,700;1,700&family=Pushster&family=Readex+Pro:wght@200;600&family=Satisfy&family=Smooch&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,700;1,700&family=Readex+Pro:wght@200;600&family=Satisfy&family=Smooch&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,700;1,700&family=Pushster&family=Readex+Pro:wght@200;600&family=Satisfy&family=Smooch&display=swap');
+    body {
+        background: rgb(22, 22, 22);
+    }
+    .myimage {
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+        overflow: hidden;
+        background-image: url("https://www.janbaca.net/wp-content/uploads/2019/12/Minimal-Architecture-ILLUSTRATION-Thumbnail.jpg");
+
+    }
+    .all {
+        flex-wrap: wrap;
+        transform: translateY(100px);
+        display: flex;
+        justify-content: center;
+       
+    }
+    .content {
+        overflow: hidden;
+        z-index: 0;
+     
+        height:0;
+        text-align: center;
+        background: rgb(29, 29, 29);
+    }
+    * {
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0;
+        transition: 0.7s;
+    }
+    p {
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .container:hover {
+        transform: translateY(-40px);
+    }
+    .container {
+        cursor: pointer;
+        margin: 20px;
+    }
+    #diff2 {
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/005/527/962/large/andrew-kirp-waterfall-01.jpg?1491717591");
+
+    }
+    #diff3 {
+        background-image: url("https://static.vecteezy.com/system/resources/previews/001/999/839/non_2x/simple-minimal-geometric-flat-style-landscape-city-illustration-vector.jpg");
+    }
+    h1 {
+        transform: translateY(20px);
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Pushster', cursive;
+        font-family: 'Readex Pro', sans-serif;
+        font-family: 'Satisfy', cursive;
+        font-family: 'Smooch', cursive;
+        font-size: 20px;
+    }
+    p {
+        font-weight: bold;
+        transform: translateY(50px);
+        color: white;
+        width: 250px;
+        margin: 0 auto;
+        letter-spacing: normal;
+        font-size: 15px;
+    }
+    .title h1 {
+        white-space: nowrap;
+        margin: 10px 100px;
+        font-family: 'Dosis', sans-serif;
+ 
+        
+    }
